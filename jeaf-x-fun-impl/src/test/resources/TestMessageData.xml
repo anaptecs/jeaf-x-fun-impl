@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Root PUBLIC "MessageData" "MessageData.dtd">
+<Root>
+    <ClassInfo className="MessageConstantTest" 
+        package="com.anaptecs.jeaf.junit.tools" 
+        description="Test class for generation of constants." 
+        author="JEAF Development Team" 
+        version="1.1"/>
+    
+    <MessageFolder name="Test message data" idRangeBegin="20000" idRangeEnd="1234567891">
+        <Message messageID="20011" 
+            name="TEST_ERROR_001" 
+            type="ERROR" 
+            defaultText="Test 1" 
+            description="Test 1"/>
+
+        <Message messageID="20012" 
+            name="INVALID_PARAMETER_NULL" 
+            type="ERROR" 
+            defaultText="Parameter ''{0}'' must not be null." 
+            description="Exception id is used whenever a parameter with the invalid value null is passed to an method."/>
+
+        <Message messageID="20013" 
+            name="TEST_01" 
+            type="INFO" 
+            defaultText="Erster Info-Test." 
+            description="Erster Info-Test"/>
+
+        <Message messageID="1212" 
+            name="ERROR_MESSAGE_1212" 
+            type="ERROR" 
+            defaultText="Error message for ID 1212 (default)" 
+            description="Error message for ID 1212.">
+            <LocalizedMessage language="en" country="" variant="" localizedText="Error message for ID 1212 (en)"/>
+            <LocalizedMessage language="en" country="US" variant="" localizedText="Error message for ID 1212 (en_US)"/>
+            <LocalizedMessage language="de" country="" variant="" localizedText="Error message for ID 1212 (de)"/>
+            <LocalizedMessage language="de" country="DE" variant="" localizedText="Error message for ID 1212 (de_DE)"/>
+            <LocalizedMessage language="de" country="DE" variant="JEAF" localizedText="Error message for ID 1212 (de_DE_JEAF)"/>
+            <LocalizedMessage language="de" country="CH" variant="" localizedText="Error message for ID 1212 (de_CH)"/>
+        </Message>             
+
+        <Message messageID="1213" 
+            name="LOCALIZED_TEXT" 
+            type="LOCALIZED_STRING" 
+            defaultText="Localized text (default)" 
+            description="Error message for ID 1212.">
+            <LocalizedMessage language="en" country="" variant="" localizedText="Localized text (en)"/>
+            <LocalizedMessage language="de" country="" variant="" localizedText="Localized text (de)"/>
+            <LocalizedMessage language="de" country="DE" variant="" localizedText="Localized text (de_DE)"/>
+            <LocalizedMessage language="de" country="DE" variant="JEAF" localizedText="Localized text (de_DE_JEAF)"/>
+            <LocalizedMessage language="de" country="CH" variant="" localizedText="Localized text (de_CH)"/>
+        </Message>             
+
+        <Message messageID="1234567890" 
+            name="PARAMETERIZED_MESSAGE" 
+            type="ERROR" 
+            defaultText="Parameterisierte Fehlermeldung ''{0}''" 
+            description="Parameterisierte Fehlermeldung "/>
+    </MessageFolder>
+</Root>
+

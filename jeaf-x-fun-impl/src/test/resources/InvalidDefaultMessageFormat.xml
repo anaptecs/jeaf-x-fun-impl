@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Root PUBLIC "MessageData" "MessageData.dtd">
+<Root>
+    <ClassInfo className="MessageConstantTest" 
+        package="com.anaptecs.jeaf.junit.tools" 
+        description="Test class for generation of constants." 
+        author="JEAF Development Team" 
+        version="1.1"/>
+    
+    <MessageFolder name="Test message data" idRangeBegin="20000" idRangeEnd="1234567891">
+        <Message messageID="12120111" 
+            name="ERROR_MESSAGE_12120" 
+            type="ERROR" 
+            defaultText="Error message {0" 
+            description="Error message for ID 1212.">
+            <LocalizedMessage language="en" country="" variant="" localizedText="Error message for ID 1212 (en)"/>
+        </Message>             
+    </MessageFolder>
+</Root>
+

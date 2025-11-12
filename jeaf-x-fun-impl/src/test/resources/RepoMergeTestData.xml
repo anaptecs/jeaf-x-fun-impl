@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Root PUBLIC "MessageData" "MessageData.dtd">
+<Root>
+    <ClassInfo className="TestMessageConstants2" 
+        package="com.anaptecs.jeaf.junit.tools" 
+        description="Test class for generation of constants." 
+        author="JEAF Development Team" 
+        version="1.1"/>
+    
+    <MessageFolder name="Test message data" idRangeBegin="20000" idRangeEnd="1234567891">
+
+        <Message messageID="20015" 
+            name="INFO_MESSAGE_20015" 
+            type="INFO" 
+            defaultText="Info message for ID 20015 (default)" 
+            description="Info message for ID 20015.">
+            <LocalizedMessage language="en" country="" variant="" localizedText="Info message for ID 20015 (en)"/>
+            <LocalizedMessage language="en" country="US" variant="" localizedText="Info message for ID 20015 (en_US)"/>
+            <LocalizedMessage language="de" country="" variant="" localizedText="Info message for ID 20015 (de)"/>
+            <LocalizedMessage language="de" country="DE" variant="" localizedText="Info message for ID 20015 (de_DE)"/>
+            <LocalizedMessage language="de" country="DE" variant="JEAF" localizedText="Info message for ID 20015 (de_DE_JEAF)"/>
+            <LocalizedMessage language="de" country="CH" variant="" localizedText="Info message for ID 20015 (de_CH)"/>
+        </Message>             
+
+    </MessageFolder>
+</Root>
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.anaptecs.jeaf.x-fun</groupId>
+		<artifactId>jeaf-x-fun-impl-project</artifactId>
+		<version>1.8.1-SNAPSHOT</version>
+	</parent>
+
+	<name>JEAF X-Fun Default Runtime</name>
+	<artifactId>jeaf-x-fun-default-runtime</artifactId>
+	<packaging>pom</packaging>
+
+	<dependencies>
+		<!-- Runtime dependencies -->
+		<dependency>
+			<groupId>com.anaptecs.jeaf.x-fun</groupId>
+			<artifactId>jeaf-x-fun-impl</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.anaptecs.jeaf.tools</groupId>
+			<artifactId>jeaf-tools-impl</artifactId>
+			<version>${jeaf.tools.impl.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.anaptecs.jeaf.x-fun</groupId>
+			<artifactId>jeaf-x-fun-impl-external-runtime-dependencies</artifactId>
+			<type>pom</type>
+			<version>${project.version}</version>
+		</dependency>
+	</dependencies>
+</project>

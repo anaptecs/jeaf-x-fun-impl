@@ -1,0 +1,3 @@
+com.anaptecs.jeaf.xfun.impl.checks.VerificationResultFormatter
+com.anaptecs.jeaf.xfun.impl.test.trace.PersonObjectFormatter
+com.anaptecs.jeaf.xfun.impl.trace.formatter.ApplicationInfoFormatter
