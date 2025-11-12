@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Root PUBLIC "MessageData" "MessageData.dtd">
+<Root>
+    <MessageFolder name="Broken test messages" idRangeBegin="20000" idRangeEnd="1234567891">
+            <Message messageID="20013" name="TEST_01" type="INFO" defaultText="Erster Info-Test." description=""/>
+            <Message name="TEST_ERROR_001" type="ERROR" defaultText="Test 1" description=""/>
+            <Message messageID="20012" name="INVALID_PARAMETER_NULL" type="ERROR" defaultText="Parameter ''{0}'' must not be null." description=""/>
+            <Message messageID="1212" name="ERROR_MESSAGE_1212" type="ERROR" defaultText="Fehlermeldung für ID 1212." description=""/>             
+            <Message messageID="1234567890" name="PARAMETERIZED_MESSAGE" type="ERROR" defaultText="Parameterisierte Fehlermeldung ''{0}''" description=""/>
+    </MessageFolder>
+</Root>
+

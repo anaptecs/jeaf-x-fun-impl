@@ -1,0 +1,5 @@
+com.anaptecs.jeaf.junit.JUnitMessages
+com.anaptecs.jeaf.junit.tools.MessageConstantTest
+com.anaptecs.jeaf.junit.tools.TestMessageConstants2
+com.anaptecs.jeaf.tools.api.ToolsMessages
+com.anaptecs.jeaf.xfun.api.XFunMessages
